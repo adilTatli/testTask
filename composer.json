@@ -1,0 +1,16 @@
+{
+    "name": "ademo/test_only",
+    "description": "The project with composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/"
+        }
+    },
+    "minimum-stability": "beta",
+    "require": {
+      "ext-pdo": "*"
+    }
+}
